@@ -1,0 +1,135 @@
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+}
+#icon img {
+    width: 176.47px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#date {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    color: #ffffff;
+    background-color: #121212;
+    height: 25px;
+    width: 500px;
+    font-size: medium;
+}
+#date-label {
+    color: white;
+    position: absolute;
+    top: 45px;
+    right: 550px;
+    text-align: center;
+}
+#schedule {
+    width: 80%;
+    max-width: 600px;
+    margin: auto 20px auto 20px;
+    background-color: #121212;
+    border: 1px solid #121212;
+    box-shadow: 0 2px 4px #121212;
+    margin-left: auto;
+    text-align: center;
+}
+
+#schedule table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#schedule th, #schedule td {
+    padding: 10px;
+    border: 1px solid #121212;
+    text-align: center;
+}
+
+#schedule th {
+    background-color: #121212;
+    color: white;
+}
+
+#schedule td {
+    background-color: #121212;
+    color: rgb(0, 0, 0);
+    border: 1px solid #121212;
+    text-align: center;
+}
+/* Set column widths */
+#schedule th:nth-child(1), #schedule td:nth-child(1) {
+    width: 10%; /* Set width for the first column */
+    background-color: #121212;
+    color: white;
+}
+
+#schedule th:nth-child(2), #schedule td:nth-child(2) {
+    width: 45%; /* Set width for the second column */
+}
+#schedule tr:nth-child(2), #schedule td:nth-child(2){
+    background-color: white;
+}
+#schedule tr:nth-child(3), #schedule td:nth-child(3){
+    background-color: white;
+}
+
+#note-box {
+    width: 35%;
+    height: 70%;
+    margin-left: 20px;
+    position: absolute;
+    top: 450px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    outline: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+#note-boxx-header {
+    position: absolute;
+    top: 400px;
+    margin-left: 20px;
+    color: white;
+}
+
+#top-priorities {
+    width: 25%;
+    height: 150px;
+    margin-left: 20px;
+    position: absolute;
+    top: 200px;
+    background-color: #ffffff;
+    border: 1px solid #121212;
+    box-shadow: 0 2px 4px #121212;
+    text-align: center;
+}
+#top-priorities table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#top-priorities-header {
+    position: absolute;
+    top: 150px;
+    margin-left: 20px;
+    color: white;
+}
+#top-priorities tr:nth-child(1){
+    height: 50px;
+    background-color: #ffffff;
+    border: 2px solid #121212;
+}
+#top-priorities tr:nth-child(2){
+    height: 50px;
+    background-color: #ffffff;
+    border: 2px solid #121212;
+}
+#top-priorities tr:nth-child(3){
+    height: 50px;
+    background-color: #ffffff;
+    border: 2px solid #121212;
+}
